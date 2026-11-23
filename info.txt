@@ -1,0 +1,58 @@
+READ ONLY; no flash performed. Time UTC: Mon Nov 23 20:07:56 UTC 2026
+WARNING: /proc/config.gz in this Astra ginkgo source can expose stock 4.14.190 config, NOT the running build config.
+
+=== Approved, non-unique Android properties ===
+ro.product.device=ginkgo
+ro.product.vendor.device=ginkgo
+ro.build.product=ginkgo
+ro.build.version.release=13
+ro.build.version.sdk=33
+ro.build.fingerprint=Xiaomi/arrow_ginkgo/ginkgo:13/TQ3A.230901.001/yeab12291952:userdebug/release-keys
+ro.bootimage.build.fingerprint=
+ro.boot.slot_suffix=
+ro.boot.slot=
+ro.build.ab_update=
+ro.boot.hardware=qcom
+ro.boot.hardware.revision=1.9.0
+ro.boot.dtbo_idx=0
+ro.boot.bootdevice=4744000.sdhci
+ro.boot.bootloader=
+ro.boot.flash.locked=1
+ro.boot.verifiedbootstate=green
+ro.boot.vbmeta.device_state=locked
+ro.boot.veritymode=enforcing
+ro.build.version.security_patch=2026-11-05
+
+=== Kernel ===
+Linux localhost 4.14.355-openela-Astra-KSU-ginkgo-1.2/578dd617 #2 SMP PREEMPT Sun Dec 29 17:46:07 UTC 2024 aarch64 Android
+Linux version 4.14.355-openela-Astra-KSU-ginkgo-1.2/578dd617 (yeab@ServerHive) (Prelude clang version 16.0.2 (https://github.com/llvm/llvm-project.git 18ddebe1a1a9bde349441631365f0472e9693520), LLD 16.0.2) #2 SMP PREEMPT Sun Dec 29 17:46:07 UTC 2024
+
+=== Available storage ===
+Filesystem       Size Used Avail Use% Mounted on
+/dev/block/dm-29  49G  15G   34G  30% /data/user/0
+
+=== Device tree, model/compatible only (no serial) ===
+/proc/device-tree/model:
+IDP
+/proc/device-tree/compatible:
+qcom,trinket-idp
+qcom,trinket
+qcom,idp
+
+=== Partition inventory, read only ===
+by-name directory: /dev/block/bootdevice/by-name
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/boot -> /dev/block/mmcblk0p72
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/bootbak -> /dev/block/mmcblk0p73
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/dtbo -> /dev/block/mmcblk0p63
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/dtbobak -> /dev/block/mmcblk0p64
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/recovery -> /dev/block/mmcblk0p76
+lrwxrwxrwx 1 root root 20 1970-01-11 21:05 /dev/block/bootdevice/by-name/vbmeta -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root 21 1970-01-11 21:05 /dev/block/bootdevice/by-name/vbmetabak -> /dev/block/mmcblk0p10
+
+Selected active boot: /dev/block/bootdevice/by-name/boot
+backup=boot-original.img partition=/dev/block/bootdevice/by-name/boot bytes=67108864 sha256=9df89798437a210d6f631cc78675f5879fae3147eeeb3db3cce2ec4eeed06e4c
+/dev/block/mmcblk0p72
+backup=dtbo-original.img partition=/dev/block/bootdevice/by-name/dtbo bytes=25165824 sha256=7d404a7c90d17e4ce97c8bd1967f1fd14fe4b8b304d2c4f0b8d39cef42eeed45
+/dev/block/mmcblk0p63
+backup=vbmeta-original.img partition=/dev/block/bootdevice/by-name/vbmeta bytes=65536 sha256=d7ab2e04349692e0b19d2c8ee5e8d1963bc9a7e3d8c88b9b781597e57330d8c8
+/dev/block/mmcblk0p9

@@ -1,0 +1,3 @@
+9df89798437a210d6f631cc78675f5879fae3147eeeb3db3cce2ec4eeed06e4c  boot-original.img
+7d404a7c90d17e4ce97c8bd1967f1fd14fe4b8b304d2c4f0b8d39cef42eeed45  dtbo-original.img
+d7ab2e04349692e0b19d2c8ee5e8d1963bc9a7e3d8c88b9b781597e57330d8c8  vbmeta-original.img
